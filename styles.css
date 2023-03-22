@@ -6,10 +6,25 @@
     margin-inline: auto;
 }
 
-.left-part {
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: row;
+    gap: 103px;
+    font-size: 30px;
+    text-decoration: overline;
+    letter-spacing: 2px;
+}
+
+.left-text {
+    display: flex;
+    align-items: center;
+    text-align: right;
 }
 
 .title-left {
